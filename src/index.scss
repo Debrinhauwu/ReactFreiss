@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #383131;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6278f7;
+  height: 90px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    margin: 35px;
+    gap: 25px;
+  }
+
+  h1 {
+    font: 700 20px "Roboto";
+    color: #f5f6fa;
+  }
+
+  a {
+    text-decoration: none;
+    font: 400 20px "Roboto";
+    color: #f5f6fa;
+  }
+}
+
+
+.container-treino {
+
+  margin:55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+
+  h1 {
+    font: 700 26px "Roboto";
+    padding-bottom: 25px;
+  }
+  
+  .subcontainer-treino {
+    display: flex;
+    flex-wrap:wrap;
+    width: 1500px;
+    gap: 55px;
+    
+  
+  
+    .caixinha-exercicio {
+      .amarelo {
+        background-color: #FFCE37;
+      }
+
+      .verde {
+        background-color: #B3FF37;
+      }
+
+      .ciano {
+        background-color: 
+        #37FFF3;
+      }
+
+      .azul {
+       background-color: #37B7FF; 
+      }
+
+      .roxo {
+        background-color: 
+        #CB37FF;
+      }
+
+      .laranja {
+        background-color: #FF5B37;
+      }
+
+      .verde-ciano {
+        background-color: #37FFAB;
+      }
+
+      .preto {
+        background-color: 
+        #151515;
+      }
+
+      .cinza {
+        background-color: 
+        #D0D0D0;
+      }
+
+      .marrom {
+        background-color: 
+        #B75333;
+      }
+
+
+      .roxo-escuro {
+        background-color: #6533B7;
+      }
+
+      & > div {
+       
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        
+
+
+      }
+  
+      h3 {
+        font: 700 14px "Roboto"
+      }
+
+      p {
+        font: 400 14px "Roboto"
+      }
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      background-color: #fff;
+      width: 215px;
+      height: 158px;
+      border-radius: 12px;
+  
+      text-align: center;
+      gap: 10px
+    }
+  }
+
+
+}
+
+
