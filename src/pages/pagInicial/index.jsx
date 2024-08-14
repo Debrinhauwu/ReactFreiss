@@ -1,20 +1,12 @@
 import { Link } from "react-router-dom";
 import "./index.scss";
+import Cabecalho from "../../components/cabecalho";
 
 function Inicio() {
   return (
     <div className="pagina-inicio">
-      <header>
-        <div>
-          <img src="/assets/images/logo.svg" alt="" />
-          <h1>React FreiS</h1>
-        </div>
 
-        <div>
-          <a href="">Inicio</a>
-          <a href="">Sobre</a>
-        </div>
-      </header>
+      <Cabecalho />
 
       <div className="container-treino">
         <h1>Escolha um treino...</h1>

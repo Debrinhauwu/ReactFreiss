@@ -1,0 +1,45 @@
+.comp-TituloEnunciado {
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        gap: 20px;
+
+        .subcontainer-titulo {
+            i{
+                font-size: 30px;
+            }
+
+            font: 700 18px 'Roboto';
+            display: flex;
+            align-items: center;
+            margin-right: 50%;
+            gap: 15px;
+        }
+        
+        hr{
+            border: 2px rgb(0, 0, 0) solid;
+            border-radius: 12px;
+            width: 76%;
+        }
+        .subcontainer-enunciado{
+            font: 500 16px/16px 'Roboto';
+            text-align: center;
+
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 75px;
+
+            background-color: #fff;
+            width: 1355px;
+            height: 213px;
+
+            border-radius: 12px;
+        }
+
+    
+}

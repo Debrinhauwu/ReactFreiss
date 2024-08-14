@@ -1,0 +1,24 @@
+.comp-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6278f7;
+    height: 90px;
+  
+    & > div {
+      display: flex;
+      align-items: center;
+      margin: 35px;
+      gap: 25px;
+    }
+  
+    h1 {
+      font: 500 20px "Roboto";
+      color: #f5f6fa;
+    }
+  
+    a {
+      text-decoration: none;
+      font: 400 20px "Roboto";
+      color: #f5f6fa;
+    }
+}

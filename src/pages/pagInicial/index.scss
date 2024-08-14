@@ -1,1 +1,106 @@
+.pagina-inicio {
 
+  .container-treino {
+  
+    margin:55px 85px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    h1 {
+      font: 700 26px "Roboto";
+      padding-bottom: 25px;
+    }
+    
+    .subcontainer-treino {
+      display: flex;
+      flex-wrap:wrap;
+      width: 1500px;
+      gap: 55px;
+      
+    
+    
+      .caixinha-exercicio {
+        .amarelo {
+          background-color: #FFCE37;
+        }
+  
+        .verde {
+          background-color: #B3FF37;
+        }
+  
+        .ciano {
+          background-color: 
+          #37FFF3;
+        }
+  
+        .azul {
+         background-color: #37B7FF; 
+        }
+  
+        .roxo {
+          background-color: 
+          #CB37FF;
+        }
+  
+        .laranja {
+          background-color: #FF5B37;
+        }
+  
+        .verde-ciano {
+          background-color: #37FFAB;
+        }
+  
+        .preto {
+          background-color: 
+          #151515;
+        }
+  
+        .cinza {
+          background-color: 
+          #D0D0D0;
+        }
+  
+        .marrom {
+          background-color: 
+          #B75333;
+        }
+  
+  
+        .roxo-escuro {
+          background-color: #6533B7;
+        }
+  
+        & > div {
+         
+          width: 60px;
+          height: 60px;
+          border-radius: 12px;
+          
+        }
+    
+        h3 {
+          font: 700 14px "Roboto"
+        }
+  
+        p {
+          font: 400 14px "Roboto"
+        }
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #fff;
+        width: 215px;
+        height: 158px;
+        border-radius: 12px;
+    
+        text-align: center;
+        gap: 10px
+      }
+    }
+  
+}
+}
