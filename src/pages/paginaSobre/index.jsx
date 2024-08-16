@@ -8,7 +8,9 @@ function Sobre() {
     <div className="pagina-sobre">
       <Cabecalho />
 
-    <TituloEnunciado />
+    <TituloEnunciado corLinha={'#FFCE37'}/>
+
+<div className="Exercicio">
 
 
     <div className="exercicio">
@@ -18,6 +20,9 @@ function Sobre() {
         <input type="text" placeholder="0"/>
 
         <button>Executar</button>
+    </div>
+    <h3>Resultado: O total é R$ 0,00</h3>
+
     </div>
 
     </div>
