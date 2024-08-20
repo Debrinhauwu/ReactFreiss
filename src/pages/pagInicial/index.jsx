@@ -12,17 +12,24 @@ function Inicio() {
         <h1>Escolha um treino...</h1>
 
         <div className="subcontainer-treino">
+
+    <Link to='/exec01'>
+
           <div className="caixinha-exercicio">
             <div className="amarelo">&nbsp;</div>
             <h3>Cupom de desconto</h3>
             <p>Exercício 01</p>
           </div>
+    </Link>
 
+
+    <Link to='/exec02'>
           <div className="caixinha-exercicio">
             <div className="verde">&nbsp;</div>
             <h3>Cupom de desconto</h3>
             <p>Exercício 02</p>
           </div>
+    </Link>
 
           <div className="caixinha-exercicio">
             <div className="ciano">&nbsp;</div>

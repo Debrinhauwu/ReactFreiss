@@ -1,6 +1,7 @@
 import './index.scss'
+import { Link } from 'react-router-dom'
 
-export default function TituloEnunciado({corLinha}) {
+export default function TituloEnunciado({corLinha, textoEnunciado, descExec}) {
   const Linha = {
     border: '0',
     backgroundColor: corLinha || '#000'
@@ -9,14 +10,16 @@ export default function TituloEnunciado({corLinha}) {
     return(
         <div className="comp-TituloEnunciado">
         <div className="subcontainer-titulo">
+          <Link to='/'>
           <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
-          <h2>Exercício 01 - Cupom de desconto</h2>
+          </Link>
+          <h2>Exercício {descExec || 'ARRUMA'}</h2>
         </div>
         <hr  style={Linha}/>
 
         <div className="subcontainer-enunciado">
             <p>
-            Implementar um programa em Javascript para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto. O cupom diz quantos reais terá de desconto.
+              {textoEnunciado || 'vazio, ARRUME'} 
             </p>
         </div>
       </div>
